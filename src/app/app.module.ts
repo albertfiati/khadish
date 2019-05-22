@@ -3,8 +3,6 @@ import {NgModule} from '@angular/core';
 import {AppRoutingModule, routingComponents} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {CommonModule} from "@angular/common";
-import {CharacterDirective} from './directives/character/character.directive';
-import {MovieDirective} from "./directives/movie/movie.directive";
 import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {BasicAuthService} from "./shared/intercepters/basic-auth.service";
 
@@ -13,8 +11,6 @@ import {BasicAuthService} from "./shared/intercepters/basic-auth.service";
     declarations: [
         AppComponent,
         routingComponents,
-        MovieDirective,
-        CharacterDirective
     ],
     imports: [
         CommonModule,
