@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-4 col-md-6 movie" *ngFor="let movie of movies">
+        <div class="card" (click)="loadMovie(movie.slug)">
+            <div class="card-body">
+                {{movie.title}}
+            </div>
+        </div>
+    </div>
+</div>

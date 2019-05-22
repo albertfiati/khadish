@@ -4,5 +4,8 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+    production: false,
+    baseurl: 'https://maipo.herokuapp.com/api',
+    email: 'OXt@gmail.com',
+    password: 'secret'
 };

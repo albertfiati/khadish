@@ -1,0 +1,19 @@
+.character {
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.movie-title {
+    color: #0071D1;
+    margin-bottom: 20px;
+    margin-top: -18px;
+}
+
+@media all and (max-width: 580px) {
+    .character {
+        margin-bottom: 16px;
+    }
+}

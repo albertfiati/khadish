@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+.logo {
+    padding: 20px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.starwars {
+    background: url("assets/background.png");
+
+}
+
+.center {
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+body {
+    padding: 16px;
+}
+
+.card-body {
+    background-color: #131212;
+}
+
+.card {
+    background-color: #131212;
+    margin-bottom: 34px;
+}
+
+@media all and (max-width: 320px) {
+    .logo > img {
+        width: 65%;
+    }
+}

@@ -1,0 +1,14 @@
+<div class="center">
+    <h1 *ngIf="movie" class="movie-title ">
+        {{movie.title}} ({{movie.year_of_release}})
+    </h1>
+</div>
+<div class="row">
+    <div class="col-lg-4 col-md-6 character " *ngFor="let character of characters">
+        <div class="card">
+            <div class="card-body">
+                {{character.name}}
+            </div>
+        </div>
+    </div>
+</div>
